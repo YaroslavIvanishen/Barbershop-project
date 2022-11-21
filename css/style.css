@@ -1,0 +1,22 @@
+.container {width: 1170px;
+margin-left:auto;
+margin-right:auto;
+padding-left: 15px;
+padding-right: 15px;}
+
+ul {list-style: none;}
+a {text-decoration: none;}
+
+body {font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+letter-spacing: 0.02em;}
+h1 {font-family: 'Releway',sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1805;
+letter-spacing: 0.05em;}
+h2 {font-family: 'Releway',sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 1.6666;
+letter-spacing: 0.05em;}
