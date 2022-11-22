@@ -1,3 +1,4 @@
+:root {}
 .container {width: 1170px;
 margin-left:auto;
 margin-right:auto;
@@ -10,13 +11,68 @@ a {text-decoration: none;}
 body {font-family: 'Open Sans', sans-serif;
 font-weight: 400;
 letter-spacing: 0.02em;}
-h1 {font-family: 'Releway',sans-serif;
-    font-weight: 700;
+h1 {font-family: 'Anton', sans-serif;
     font-size: 72px;
     line-height: 1.1805;
 letter-spacing: 0.05em;}
-h2 {font-family: 'Releway',sans-serif;
-font-weight: 700;
+h2 {font-family: 'Anton', sans-serif;
 font-size: 42px;
 line-height: 1.6666;
 letter-spacing: 0.05em;}
+h3 {font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    line-height: 1.3888;
+    letter-spacing: 0.05em;}
+    header {display: flex;}
+        .navigation {
+            display: flex;
+            align-items: baseline;
+        }
+.navigation ul{display: flex;
+align-items: baseline;
+gap: 30px;
+margin-left: 50px;
+margin-top: 52px;
+position: relative;}
+header a {color: #fff;}
+.kont-list {margin-left: 250px;}
+.navigation {
+    width: 1070px;
+    height: 680px;
+    background-image: url(/images/slider.jpg);
+background-size: cover;
+}
+
+
+.sidebar {display: flex;
+flex-direction: column;
+width: 155px;
+height: 680px;}
+.logo {margin: 32px 31px auto 55px;}
+.rotate {display: flex;
+    gap: 40px;
+    transform: rotate(-90deg);
+margin: 370px 71px 40px 69px;}
+.rotate a {color: #303030;
+font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3636;
+    letter-spacing: 0.2em;}
+.rotate hr {width: 60px;}
+.kont-list button {
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+padding: 12px 20px;
+min-width: 160px;
+background-color: transparent;
+color: #fff;
+font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3333;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;}
+
+.hero {position: absolute;
+left: 0;
+bottom: 0;}
+
