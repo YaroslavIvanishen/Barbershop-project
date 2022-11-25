@@ -24,35 +24,33 @@ h3 {font-family: 'Anton', sans-serif;
     line-height: 1.3888;
     letter-spacing: 0.05em;}
     header {display: flex;}
-        .navigation {
-            display: flex;
-            align-items: baseline;
-        }
+        .navigation {display: flex;
+            align-items: baseline;}
 .navigation ul{display: flex;
 align-items: baseline;
 gap: 30px;
 margin-left: 50px;
-margin-top: 52px;
-position: relative;}
+margin-top: 52px;}
 header a {color: #fff;}
-.kont-list {margin-left: 250px;}
-.navigation {
+.kont-list {padding-left: 165px;}
+.navigation {position: relative;
     width: 1070px;
     height: 680px;
     background-image: url(/images/slider.jpg);
-background-size: cover;
+background-size: 100%;
 }
 
 
 .sidebar {display: flex;
 flex-direction: column;
-width: 155px;
+width: 100px;
 height: 680px;}
-.logo {margin: 32px 31px auto 55px;}
+.logo {margin-top: 32px;}
 .rotate {display: flex;
     gap: 40px;
     transform: rotate(-90deg);
-margin: 370px 71px 40px 69px;}
+margin-top: 370px;
+margin-left: -40px;}
 .rotate a {color: #303030;
 font-weight: 600;
     font-size: 11px;
@@ -73,6 +71,7 @@ font-weight: 600;
     text-transform: uppercase;}
 
 .hero {position: absolute;
-left: 0;
-bottom: 0;}
+
+}
+.hr-hero {display: flex;}
 
